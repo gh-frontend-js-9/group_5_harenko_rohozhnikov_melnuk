@@ -1,7 +1,11 @@
 $font: "Open Sans", sans-serif;
 
-.articles-area {
+.articles-root {
   background-color: #f9f9fb;
+}
+
+.articles-area {
+  padding-top: 173px;
 }
 
 // TITLE BLOCK
@@ -106,6 +110,8 @@ $font: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
 }
+
+// MEDIA
 
 @media all and (max-width: 1200px) {
   .articles-block {
