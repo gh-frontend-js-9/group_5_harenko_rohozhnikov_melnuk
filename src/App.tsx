@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
+import { PopularBlock } from './components/PopularBlock/PopularBlock'
 
 function App() {
   return (
-    <div className="App">
-    
-    </div>
+   <>
+    <PopularBlock/>
+   </>
   );
 }
 
