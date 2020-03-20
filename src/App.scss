@@ -1,0 +1,36 @@
+@import './assets/styles/css/normalize.css';
+
+body {
+  color: #000;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {text-decoration: none;}
+ul {padding-inline-start: 0;}
+li {list-style-type: none;}
+
+.container {
+  margin-left: 5px;
+	margin-right: 5px;
+  max-width: 1170px;
+  @media (min-width: 576px) {
+    margin-left: 10px;
+	  margin-right: 10px;
+  }
+  @media (min-width: 992px) {
+    margin: 0 auto;
+    align-items: center;}
+}
+
+.menu, 
+.container {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 992px) {
+    flex-direction: row;
+  }
+}
+
+.container {justify-content: space-around;}
+.menu {justify-content: space-between;}
