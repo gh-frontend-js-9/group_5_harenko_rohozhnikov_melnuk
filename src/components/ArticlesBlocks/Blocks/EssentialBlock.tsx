@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from '@material-ui/core'
 import { Box } from '@material-ui/core';
-import '../style/articlesBlock.scss'
+import '../articlesBlock.scss'
 
 export function EssentialBlock() {
     return (
