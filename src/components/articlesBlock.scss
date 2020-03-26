@@ -36,11 +36,15 @@ $font: "Open Sans", sans-serif;
 
 .main-block {
   padding-left: 50px;
-  width: 548px;
+  width: 539px;
   height: 358px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   background-color: #1b0042;
+}
+
+.main-block:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  cursor: pointer;
 }
 
 .main-block_subtitle {

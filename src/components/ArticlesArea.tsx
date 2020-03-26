@@ -1,6 +1,6 @@
 import React from 'react';
 import { PopularBlock } from './Blocks/PopularBlock'
-import { EssentialBlock } from './Blocks/EssentialBlock'
+import EssentialBlock from './Blocks/EssentialBlock'
 import { FreelanceBlock } from './Blocks/FreelanceBlock'
 import "./articlesBlock.scss"
 
