@@ -1,3 +1,3 @@
-# articles blocks branch
+# bottom blocks branch
 
 Status: in progress

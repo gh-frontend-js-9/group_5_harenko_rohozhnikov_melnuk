@@ -1,17 +1,15 @@
 import React from 'react';
-import { PopularBlock } from './Blocks/PopularBlock'
-import EssentialBlock from './Blocks/EssentialBlock'
-import { FreelanceBlock } from './Blocks/FreelanceBlock'
-import "./articlesBlock.scss"
+import { LeftBlock } from './Blocks/LeftBlock'
+import { RightBlock } from './Blocks/RightBlock'
+import "./bottomBlock.scss"
 
 function ArticlesArea() {
-    return (
-     <div className="articles-root">
-      <PopularBlock/>
-      <EssentialBlock/>
-      <FreelanceBlock/>
-     </div>
-    );
-  }
+  return (
+    <div className="bottom-blocks-root">
+      <LeftBlock />
+      <RightBlock />
+    </div>
+  );
+}
 
 export default ArticlesArea
