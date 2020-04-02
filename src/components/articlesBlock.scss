@@ -36,6 +36,7 @@ $font: "Open Sans", sans-serif;
 
 .main-block {
   padding-left: 50px;
+  transition: transform .3s;
   width: 539px;
   height: 358px;
   border-radius: 8px;
@@ -44,6 +45,7 @@ $font: "Open Sans", sans-serif;
 
 .main-block:hover {
   box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  transform: scale(1.02);
   cursor: pointer;
 }
 
@@ -126,6 +128,9 @@ $font: "Open Sans", sans-serif;
   }
   .small-articles-block {
     margin-top: 20px;
+  }
+  .small-blocks-area {
+    justify-content: center;
   }
 }
 

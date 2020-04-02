@@ -1,8 +1,12 @@
 import { combineReducers } from 'redux'
+import { popularReduce } from './popularBlock'
 import { essentialReduce } from './essentialBlock'
+import { freelanceReduce } from './freelanceBlock'
 
 const rootReducer = combineReducers({
-    essential: essentialReduce
+    popular: popularReduce,
+    essential: essentialReduce,
+    freelance: freelanceReduce
 })
 
 export default rootReducer;

@@ -7,7 +7,7 @@ export function essentialFetchDataSuccess(essentialBlockInfo: object) {
 
 export function essentialFetchData() {
     return (dispatch: any) => {
-        fetch('https://ghblogs.herokuapp.com/posts/?category=popular&page=1&limit=5&fields=title,category,author', {
+        fetch('https://ghblogs.herokuapp.com/posts/?category=essential&page=1&limit=10&fields=title,category,description,tags', {
             method: 'GET'
         })
             .then(response => {
