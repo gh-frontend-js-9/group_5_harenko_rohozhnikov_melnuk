@@ -11,11 +11,11 @@ export const Header: React.FC = () => {
                 </div>
                 <nav className="header__items">
                     <ul className="header__menu menu">
-                        <li className="menu__item"><a className="menu__link" href="#">Popular</a></li>
-                        <li className="menu__item"><a className="menu__link" href="#">New</a></li>
-                        <li className="menu__item"><a className="menu__link" href="#">Reading list</a></li>
-                        <li className="menu__item"><a className="menu__link" href="#">Topics</a></li>
-                        <li className="menu__item"><a className="menu__link" href="#">Subscribe</a></li>
+                        <li className="menu__item"><a className="menu__link" href="/popular">Popular</a></li>
+                        <li className="menu__item"><a className="menu__link" href="/new">New</a></li>
+                        <li className="menu__item"><a className="menu__link" href="/readinglist">Reading list</a></li>
+                        <li className="menu__item"><a className="menu__link" href="/topics">Topics</a></li>
+                        <li className="menu__item"><a className="menu__link" href="/subscribe">Subscribe</a></li>
                     </ul>
                 </nav>
                 <div className="header__items">
