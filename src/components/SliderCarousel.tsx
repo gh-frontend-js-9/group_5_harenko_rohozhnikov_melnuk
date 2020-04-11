@@ -12,7 +12,7 @@ export function SliderCarousel() {
     };
 
     return (
-        <Carousel activeIndex={index} onSelect={handleSelect} controls={false} indicators={false}>
+        <Carousel activeIndex={index} onSelect={handleSelect} controls={false}>
             <Carousel.Item>
                 <div className="d-block w-100%">
                     <div className="main-block">
