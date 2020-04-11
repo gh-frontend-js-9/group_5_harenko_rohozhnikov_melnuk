@@ -1,3 +1,3 @@
-# bottom blocks branch
+# blog/bottom-blocks branch
 
 Status: in progress
