@@ -1,0 +1,42 @@
+.comments {
+	width: 772px;
+	&__items {position: relative;}
+	&__inner--shift {
+		margin-top: 62px;
+		margin-left: 105px;
+	}
+	&__user {display: flex;}
+	&__items {align-items: center;}
+	&__title{
+		font-size: 18px;
+		line-height: 30px;
+		margin-right: 60px;
+		letter-spacing: -0.11px;
+	}
+	&__data{
+		color: #9b9b9b;
+		line-height: 46px;
+		letter-spacing: -0.1px;
+	}
+	&__button{
+		left: 34%;
+		width: 90px;
+		height: 52px;
+		display: flex;
+		color: #9b9b9b;
+		font-size: 18px;
+		font-weight: 600;
+		position: relative;
+		border-radius: 10px;
+		align-items: center;
+		justify-content: center;
+		letter-spacing: -0.37px;
+		border: 2px solid #e4e4e4;
+	}
+	&__message {
+		margin-top: 7px;
+		line-height: 32px;
+		margin-left: 105px;
+		letter-spacing: -0.1px;
+	}
+}
