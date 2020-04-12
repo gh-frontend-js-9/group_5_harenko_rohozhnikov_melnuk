@@ -2,7 +2,7 @@
 	height: 100px;
 	display: flex;
 	align-items: center;
-	&__item:last-child {opacity: 0.25;}
+	&__item:first-child {opacity: 0.25;}
 	&__copyright {
 		color: #9b9b9b;
 		font-size: 14px;
