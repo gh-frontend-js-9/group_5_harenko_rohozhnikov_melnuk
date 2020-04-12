@@ -1,13 +1,13 @@
-import React from 'react';
-import './App.scss';
-import Header from './components/header/header'
-import Footer from './components/footer/footer'
+import React from 'react'
+import './App.scss'
+import About from './components/about/about'
 
 function App() {
   return (
     <>
-      {/* <Header /> */}
-      <Footer />
+      <div className="container">
+        <About />
+      </div>
     </>
   );
 }
