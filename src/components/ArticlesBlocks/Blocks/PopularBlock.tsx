@@ -75,7 +75,6 @@ class PopularBlock extends React.Component<IProps> {
 }
 
 const mapStateToProps = (state: IState) => {
-  console.log(state)
   return {
     fetchData: state.popular
   }

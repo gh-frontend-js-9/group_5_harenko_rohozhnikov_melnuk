@@ -6,7 +6,7 @@ import { freelanceReduce } from './freelanceBlock'
 const rootReducer = combineReducers({
     popular: popularReduce,
     essential: essentialReduce,
-    freelance: freelanceReduce
+    freelance: freelanceReduce,
 })
 
 export default rootReducer;

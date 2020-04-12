@@ -5,13 +5,13 @@ import FreelanceBlock from './Blocks/FreelanceBlock'
 import "./articlesBlock.scss"
 
 function ArticlesArea() {
-    return (
-     <div className="articles-root">
-      <PopularBlock/>
-      <EssentialBlock/>
-      <FreelanceBlock/>
-     </div>
-    );
-  }
+  return (
+    <div className="articles-root">
+      <PopularBlock />
+      <EssentialBlock />
+      <FreelanceBlock />
+    </div>
+  );
+}
 
 export default ArticlesArea

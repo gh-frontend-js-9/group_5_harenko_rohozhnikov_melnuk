@@ -1,0 +1,82 @@
+$font: "Open Sans", sans-serif;
+
+.display-block {
+  height: 358px;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://ghblogs.herokuapp.com/images/mountains.jpg');
+}
+
+.bottom-blocks-root {
+  padding-top: 168px;
+  background-color: #f9f9fb;
+}
+
+.bottom-block-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bottom-block {
+  padding-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 23px;
+}
+
+.bottom-block:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+// BLOCK
+
+.bottom-main-block {
+  height: 358px;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+.bottom-block_subtitle {
+  font-family: $font;
+  font-size: 16px;
+  line-height: 80px;
+}
+
+.bottom-block_title {
+  font-family: $font;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.bottom-block_txt {
+  padding-top: 30px;
+  font-family: $font;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.bottom-block_words {
+  color: #9b9b9b;
+}
+
+.bottom-block_words:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+// MEDIA
+
+@media all and (max-width: 1200px) {
+  .bottom-block {
+    margin-top: 30px;
+    padding-bottom: 10px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .main-block_subtitle {
+    line-height: 35px;
+  }
+}

@@ -12,7 +12,6 @@ class EssentialBlock extends React.Component<IProps> {
   }
 
   render() {
-    console.log(this.props.fetchData)
     return (
       <div className="articles-area">
         <Container className="title-block" maxWidth="lg">
@@ -82,7 +81,6 @@ const mapStateToProps = (state: IState) => {
 }
 
 const mapDispatchToProps = (dispatch: any) => {
-  console.log(dispatch)
   return {
     fetchRequest: () => dispatch(essentialFetchData())
   }
