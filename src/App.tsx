@@ -6,6 +6,7 @@ import BredCrumb from './components/bredCrumb/bredCrumb'
 import Post from './components/post/post'
 import Related from './components/related/related'
 import Comments from './components/comments/comments'
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         <Related />
         <Comments />
       </main>
+      <div className="container">
+        <Footer />
+      </div>
     </>
   );
 }
