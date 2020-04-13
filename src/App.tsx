@@ -1,13 +1,13 @@
 import React from 'react'
 import './App.scss'
-import About from './components/about/about'
+import Related from './components/related/related'
 
 function App() {
   return (
     <>
-      <div className="container">
-        <About />
-      </div>
+      <main className="main">
+        <Related />
+      </main>
     </>
   );
 }
