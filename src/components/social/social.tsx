@@ -12,27 +12,27 @@ export const Social: React.FC = () => {
     return (
         <ul className="social">
 			<li className="social__item">
-				<a className="social__link" href="">
+				<a className="social__link" href="#">
                     <FontAwesomeIcon icon={faVk} />
 				</a>
 			</li>
 			<li className="social__item">
-				<a className="social__link" href="">
+				<a className="social__link" href="#">
                     <FontAwesomeIcon icon={faPinterestP} />
 				</a>
 			</li>
 			<li className="social__item">
-				<a className="social__link" href="">
+				<a className="social__link" href="#">
                     <FontAwesomeIcon icon={faInstagram} />
 				</a>
 			</li>
 			<li className="social__item">
-				<a className="social__link" href="">
+				<a className="social__link" href="#">
                     <FontAwesomeIcon icon={faTwitter} />
 				</a>
 			</li>
 			<li className="social__item">
-				<a className="social__link" href="">
+				<a className="social__link" href="#">
                     <FontAwesomeIcon icon={faFacebook} />
 				</a>
 			</li>
