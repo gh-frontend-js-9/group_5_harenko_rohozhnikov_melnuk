@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.scss'
-import BredCrumb from './components/bredCrumb/bredCrumb'
+import Post from './components/post/post'
 
 function App() {
   return (
     <>
       <main className="main">
-        <BredCrumb />
+        <Post />
       </main>
     </>
   );
