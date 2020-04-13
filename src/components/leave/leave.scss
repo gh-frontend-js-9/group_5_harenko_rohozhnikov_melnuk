@@ -1,0 +1,30 @@
+.leave {
+	margin-bottom: 47px;
+	&__item{
+		margin: 27px 0	;
+		line-height: 32px;
+		letter-spacing: -0.1px;
+		&--bold {font-weight: 700;}
+		&--bottom {
+			padding-bottom: 79px;
+			border-bottom: 1px solid #d8d8d8;
+		}
+	}
+	&__title{
+		line-height: 32px;
+		letter-spacing: -0.17px;
+	}
+	&__button {
+		width: 198px;
+		height: 50px;
+		display: flex;
+		color: #ff5480;
+		font-size: 18px;
+		font-weight: 600;
+		border-radius: 10px;
+		align-items: center;
+		letter-spacing: -0.37px;
+		justify-content: center;
+		border: 2px solid #ff5480;
+	}
+}

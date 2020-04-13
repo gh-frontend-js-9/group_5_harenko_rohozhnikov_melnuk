@@ -1,0 +1,64 @@
+.form {
+	display: flex;
+	padding-bottom: 228px;
+	justify-content: center;
+	&__container {
+		width: 772px;
+		display: flex;
+		border-radius: 8px;
+		justify-content: center;
+		background-color: #ffffff;
+		box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+	}
+	&__title{
+		margin-top: 71px;
+		line-height: 46px;
+		margin-bottom: 28.5px;
+	}
+	&__input {
+		width: 523px;
+		height: 70px;
+		margin: 7.5px 0;
+		border-radius: 10px;
+		border: 2px solid #e6e6e6;
+		background-color: #ffffff;
+		&--size {
+			height: 196px;
+			&::placeholder{
+				position: relative;
+				top: -60px;
+			}
+		}
+		&::placeholder {
+			color: #9b9b9b;
+			padding-left: 29px;
+		}
+	}
+	&__checkbox {
+		width: 18px;
+		height: 18px;
+		color: #9b9b9b;
+		margin-top: 9.5px;
+		border-radius: 3px;
+		margin-bottom: 20px;
+		border: 2px solid #dcdcdc;
+		background-color: #ffffff;
+	}
+	&__submit {
+		border:none;
+		width: 227px;
+		height: 70px;
+		color: #ffffff;
+		font-size: 24px;
+		font-weight: 600;
+		margin-bottom: 94px;
+		border-radius: 40px;
+		letter-spacing: -0.5px;
+		background-color: #ff5480;
+	}
+	&__link {color: #27aeff;}
+	&__label {
+		line-height: 46px;
+		letter-spacing: -0.1px;
+	}
+}
