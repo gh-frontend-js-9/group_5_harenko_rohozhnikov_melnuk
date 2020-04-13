@@ -1,13 +1,13 @@
 import React from 'react'
 import './App.scss'
-import About from './components/about/about'
+import BredCrumb from './components/bredCrumb/bredCrumb'
 
 function App() {
   return (
     <>
-      <div className="container">
-        <About />
-      </div>
+      <main className="main">
+        <BredCrumb />
+      </main>
     </>
   );
 }
