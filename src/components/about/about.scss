@@ -1,0 +1,17 @@
+.about {
+	color: #111210;
+	margin-top: 114px;
+	margin-bottom: 63px;
+	&__title {
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 46px;
+		letter-spacing: -0.22px;
+	}
+	&__text {
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 30px;
+		letter-spacing: -0.11px;
+	}
+}
