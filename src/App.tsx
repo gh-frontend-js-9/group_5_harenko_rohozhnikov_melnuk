@@ -4,6 +4,7 @@ import Header from './components/header/header'
 import About from './components/about/about'
 import BredCrumb from './components/bredCrumb/bredCrumb'
 import Post from './components/post/post'
+import Related from './components/related/related'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <main className="main">
         <BredCrumb />
         <Post />
+        <Related />
       </main>
     </>
   );
