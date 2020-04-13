@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.scss'
-// import '../../App.scss'
 
 export const About: React.FC = () => {
     return (
