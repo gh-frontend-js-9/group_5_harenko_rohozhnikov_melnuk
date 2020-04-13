@@ -13,13 +13,11 @@ export const Social: React.FC = () => {
         <ul className="social">
 			<li className="social__item">
 				<a className="social__link" href="">
-					<i className="fab fa-vk"></i>
                     <FontAwesomeIcon icon={faVk} />
 				</a>
 			</li>
 			<li className="social__item">
 				<a className="social__link" href="">
-					<i className="fab fa-pinterest-p"></i>
                     <FontAwesomeIcon icon={faPinterestP} />
 				</a>
 			</li>
