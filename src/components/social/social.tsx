@@ -6,7 +6,7 @@ import { faVk } from '@fortawesome/free-brands-svg-icons'
 import { faPinterestP } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 
 export const Social: React.FC = () => {
     return (
@@ -35,7 +35,7 @@ export const Social: React.FC = () => {
 			</li>
 			<li className="social__item">
 				<a className="social__link" href="">
-                    <FontAwesomeIcon icon={faFacebook} />
+                    <FontAwesomeIcon icon={faFacebookF} />
 				</a>
 			</li>
 		</ul>
