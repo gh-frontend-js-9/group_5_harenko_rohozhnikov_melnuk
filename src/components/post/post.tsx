@@ -19,8 +19,8 @@ export const Post: React.FC = () => {
 				<div className="post__img">
 					<img src={postImg} alt="postImg" />
 				</div>
-				<div className="post__action">
-					<ul className="social">
+				<div className="post__action ">
+					<ul className="social social--colum">
 						<li className="social__item--column">
 							<FontAwesomeIcon icon={faHeart} className="fa" />
 							<div className="social__count">12 K</div>

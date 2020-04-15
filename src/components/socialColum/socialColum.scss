@@ -1,5 +1,8 @@
 .social {
 	padding: 0;
+    display: flex;
+    justify-content: space-between;
+    &--colum {flex-direction: column !important;} 
 	&__item {
 		width: 20px;
 		height: 20px;
