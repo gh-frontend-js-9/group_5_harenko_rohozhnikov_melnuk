@@ -4,13 +4,21 @@
 	margin: 0 auto;
 	padding: 0 10px;
 	align-items: center;
+<<<<<<< HEAD
 	flex-direction: column;
 	&__item:first-child {
 		opacity: 0.25;}
+=======
+	&__item:first-child {opacity: 0.25;}
+>>>>>>> dc86eaef03122075d471fc6f0ad4109b19821133
 	&__copyright {
 		color: #9b9b9b;
 		font-size: 14px;
 	}
+<<<<<<< HEAD
 	@media (min-width: 992px) {flex-direction: row;}
 	@media (min-width: 1200px) {padding: 0;}
 }
+=======
+}
+>>>>>>> dc86eaef03122075d471fc6f0ad4109b19821133
