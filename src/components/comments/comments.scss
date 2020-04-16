@@ -1,10 +1,9 @@
 .comments {
 	max-width: 772px;
 	&__items {
+		align-items: normal;
 		flex-direction: column;
-		align-items: normal !important;
 		@media (min-width: 768px) {
-			// position: relative;
 			align-items: center;
 			flex-direction: row !important;
 		}
@@ -30,12 +29,14 @@
 		}
 	}
 	&__button{
+		right: 0;
 		width: 90px;
-		height: 52px;
 		display: flex;
-		color: #9b9b9b;
 		font-size: 18px;
 		font-weight: 600;
+		color: #9b9b9b;
+		margin-right: 5%;
+		position: absolute;
 		border-radius: 10px;
 		align-items: center;
 		justify-content: center;
@@ -43,14 +44,24 @@
 		border: 2px solid #e4e4e4;
 		@media (min-width: 768px) {	
 			left: 17%;	
+			height: 52px;
+			margin-right: 0;	
 			position: relative;
 		}
 		@media (min-width: 992px) {left: 34%;}
+		&:hover {
+			color: #fff;
+			cursor: pointer;
+			transform: scale(1.02);
+			background-color: #ff5480;
+			box-shadow: 0 0 8px rgba(0,0,0,.08);
+		}
 	}
 	&__message {
 		margin-top: 7px;
 		line-height: 32px;
-		margin-left: 105px;
+		margin-left: 60px;
 		letter-spacing: -0.1px;
+		@media (min-width: 576px) {margin-left: 105px;}
 	}
 }

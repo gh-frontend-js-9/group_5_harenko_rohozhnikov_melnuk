@@ -31,5 +31,11 @@
 		letter-spacing: -0.37px;
 		justify-content: center;
 		border: 2px solid #ff5480;
+		&:hover {
+			cursor: pointer;
+			transform: scale(1.02);
+			background-color: #fff;
+			box-shadow: 0 0 8px rgba(0,0,0,.08);
+		}
 	}
 }

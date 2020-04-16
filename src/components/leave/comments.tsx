@@ -10,7 +10,7 @@ export const Comments: React.FC = () => {
 					<div className="comments__user">
 						<div className="comments__items">
 							<div className="avatar">
-								<img src={Avatar} alt="avatar" />
+								<img className="avatar__img" src={Avatar} alt="avatar" />
 							</div>
 						</div>
 						<div className="comments__items flex-sb">
@@ -28,7 +28,7 @@ export const Comments: React.FC = () => {
 					<div className="comments__user">
 						<div className="comments__items">
 							<div className="avatar">
-								<img src={Avatar} alt="avatar" />
+								<img className="avatar__img" src={Avatar} alt="avatar" />
 							</div>
 						</div>
 						<div className="comments__items flex-sb">
@@ -47,7 +47,7 @@ export const Comments: React.FC = () => {
 					<div className="comments__user">
 						<div className="comments__items">
 							<div className="avatar">
-								<img src={Avatar} alt="avatar" />
+								<img className="avatar__img" src={Avatar} alt="avatar" />
 							</div>
 						</div>
 						<div className="comments__items flex-sb">
