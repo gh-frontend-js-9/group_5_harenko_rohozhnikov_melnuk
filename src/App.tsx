@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 import './App.scss';
-import Header from './components/Header/Header'
-import ArticlesArea from './components/ArticlesBlocks/ArticlesArea'
-import BottomBlocksArea from './components/BottomBlocks/BottomBlocksArea'
-import Footer from './components/Footer/Footer'
+import Header from './components/blogPage/Header/Header'
+import ArticlesArea from './components/blogPage/ArticlesBlocks/ArticlesArea'
+import BottomBlocksArea from './components/blogPage/BottomBlocks/BottomBlocksArea'
+import Footer from './components/blogPage/Footer/Footer'
 
 function App() {
   return (

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container } from '@material-ui/core'
 import { Box } from '@material-ui/core';
-import { freelanceFetchData } from '../../../store/actions/freelanceBlock'
-import { IState, IProps } from '../../../interfaces'
+import { essentialFetchData } from '../../../../store/actions/essentialBlock'
 import { connect } from 'react-redux';
+import { IState, IProps } from '../../../../interfaces'
 import '../articlesBlock.scss'
 
-class FreelanceBlock extends React.Component<IProps> {
+class EssentialBlock extends React.Component<IProps> {
   componentDidMount() {
     this.props.fetchRequest()
   }
@@ -76,14 +76,14 @@ class FreelanceBlock extends React.Component<IProps> {
 
 const mapStateToProps = (state: IState) => {
   return {
-    fetchData: state.freelance
+    fetchData: state.essential
   }
 }
 
 const mapDispatchToProps = (dispatch: any) => {
   return {
-    fetchRequest: () => dispatch(freelanceFetchData())
+    fetchRequest: () => dispatch(essentialFetchData())
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(FreelanceBlock);
+export default connect(mapStateToProps, mapDispatchToProps)(EssentialBlock);

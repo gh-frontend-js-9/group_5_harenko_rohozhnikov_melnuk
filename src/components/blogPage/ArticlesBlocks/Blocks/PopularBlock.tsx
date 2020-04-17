@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container } from '@material-ui/core'
 import { Box } from '@material-ui/core';
-import { popularFetchData } from '../../../store/actions/popularBlock'
-import { IState, IProps } from '../../../interfaces'
+import { popularFetchData } from '../../../../store/actions/popularBlock'
+import { IState, IProps } from '../../../../interfaces'
 import { connect } from 'react-redux';
 import '../articlesBlock.scss'
 
