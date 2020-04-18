@@ -1,0 +1,19 @@
+.menu {
+	@media (max-width: 768px) {
+		display: none;
+		overflow: hidden;
+		flex-direction: column;}
+	&__item { margin: 10px 0;}
+	&__link {
+		font-weight: 600;
+		color: #000000;
+		font-family: "Open Sans Semi Bold";
+		@media (min-width: 1200px) {margin: 0 30px;}
+		&:hover {
+			color: #fff;
+			padding: 10px;
+			border-radius: 10px;
+			background-color: #ff5480;
+		}
+	}
+}
