@@ -3,7 +3,7 @@ import './navigation.scss'
 
 export const Navigation: React.FC = () => {
     return (
-        <ul className="menu flex-sa">
+        <ul className="header__menu menu flex-sa">
             <li className="menu__item">
                 <a className="menu__link" href="/popular">Popular</a>
             </li>

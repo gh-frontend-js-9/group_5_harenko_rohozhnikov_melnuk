@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react'
 import './header.scss'
 import '../Header/burgerMenu/burgerMenu.scss'
 import Logo from '../../assets/images/logo.png'
@@ -7,6 +7,23 @@ import Navigation from './navigation/navigation'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import BurgerMenu from './burgerMenu/burgerMenu';
+
+let showMenu  = false;
+let search: any = document.getElementsByClassName('header__search');
+function switchMenu (event: any) {
+    showMenu = !showMenu
+    // search = !search
+    let menu : any = document.getElementsByClassName('header__menu')
+    console.log(search);
+    console.log(menu);
+    
+    // search.target.classList.toggle('block')
+    event.target.classList.toggle('burger-menu__lines--active')
+    return showMenu
+    // let search = event.find('header__search')
+    // let menu = event.find('menu')
+    // event.classList.toggle("burger-menu__lines--active");
+}
 
 export const Header: React.FC = () => {
     return (
@@ -21,13 +38,13 @@ export const Header: React.FC = () => {
                 </nav>
             </div>
             <div className="header__item">
-                <FontAwesomeIcon icon={faSearch} className="header__search"/>
-                <div className="burger-menu" onClick={($event: any) => $event.target.classList.add('burger-menu__lines--active')}>
+                <FontAwesomeIcon icon={faSearch} className="header__search" />
+                <div className="burger-menu" onClick={switchMenu}>
                     <a href="#" className="burger-menu__button" >
-                        <span className="burger-menu__lines"></span>
+                        <span className={`burger-menu__lines${showMenu ? ' burger-menu__lines--active' : ''}`}></span> 
                     </a>
                 </div>
-            </div>
+            </div> 
 	    </header>
     )
 }
