@@ -1,12 +1,10 @@
 import React from 'react';
 import './header.scss'
-import '../header/burgerMenu/burgerMenu.scss'
-import Logo from '../../assets/images/logo.png'
+import './burgerMenu.scss'
+import Logo from  '../../assets/images/logo.png'
 import Navigation from './navigation/navigation'
-// import 'https://code.jquery.com/jquery-3.1.1.min.js'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import BurgerMenu from './burgerMenu/burgerMenu';
 
 export class Header extends React.Component<any, any> {
     constructor(props: any) {
@@ -32,9 +30,8 @@ export class Header extends React.Component<any, any> {
                     <a className="header__link" href="/">
                         <img className="header__logo logo" src={Logo} alt="Logo" />
                     </a>
-                    <nav className="header__nav nav burger-menu">
-                        <Navigation display={style} />
-                        {/* <BurgerMenu /> */} 
+                    <nav className="header__nav nav">
+                        <Navigation display={style} /> 
                     </nav>
                 </div>
                 <div className="header__item">

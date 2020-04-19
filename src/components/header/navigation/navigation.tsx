@@ -7,7 +7,7 @@ export class Navigation extends React.Component<any> {
     }
     render() {
         return (
-            <ul style={this.props.display} className="menu flex-sa">
+            <ul className="menu flex-sa" style={this.props.display} >
                 <li className="menu__item">
                     <a className="menu__link" href="/popular">Popular</a>
                 </li>
