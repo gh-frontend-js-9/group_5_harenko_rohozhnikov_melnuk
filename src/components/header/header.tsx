@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.scss'
 import Logo from '../../assets/images/logo.png';
-import Navigation from '../navigation/navigation'
+import Navigation from './navigation/navigation'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
