@@ -12,10 +12,10 @@ function App() {
   return (
     <>
       <div className="container">
-        <Header />
-        <About />
+        <Header/>
+        {/* <About /> */}
       </div>
-      <main className="main">
+      {/* <main className="main">
         <BredCrumb />
         <Post />
         <Related />
@@ -23,7 +23,7 @@ function App() {
       </main>
       <div className="container">
         <Footer />
-      </div>
+      </div> */}
     </>
   );
 }
