@@ -2,6 +2,9 @@ import React from 'react'
 import './navigation.scss'
 
 export class Navigation extends React.Component<any> {
+    constructor(props: any) {
+        super(props);
+    }
     render() {
         return (
             <ul className="menu flex-sa" style={this.props.display} >
