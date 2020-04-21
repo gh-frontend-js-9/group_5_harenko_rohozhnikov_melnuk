@@ -1,14 +1,21 @@
 .menu {
-	&__link {
-		color: #000000;
-		margin: 0 30px;
-		font-weight: 600;
-		font-family: "Open Sans Semi Bold";
-		&:hover {
-			color: #fff;
-			padding: 10px;
-			border-radius: 10px;
-			background-color: #ff5480;
-		}
+	display: none;
+	flex-direction: column;
+	@media (min-width: 992px) {
+		flex-direction: row;
+		display: flex !important;
 	}
+&__item { margin: 20px 0;}
+&__link {
+	font-weight: 600;
+	color: #000000;
+	font-family: "Open Sans Semi Bold";
+	@media (min-width: 1200px) {margin: 0 30px;}
+	&:hover {
+		color: #fff;
+		padding: 10px;
+		border-radius: 10px;
+		background-color: #ff5480;
+	}
+}
 }
