@@ -12,9 +12,13 @@
 		align-items: center;
 		justify-content: center;
 		background-color: #9b9b9b;
-		&--column {
-			margin-bottom: 30px;
+		&:hover {
+			cursor: pointer;
+			transform: scale(1.02);
+    		background-color: #ff5480;
+			box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
 		}
+		&--column {margin-bottom: 30px;}
 	}
 	&__link {
 		color: #fff;
