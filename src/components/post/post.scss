@@ -1,7 +1,7 @@
 .post {
 	padding: 0 5%;
+	text-align: center;
 	margin-bottom: 156px;
-	@media (max-width: 576px) {text-align: center;}
 	@media (min-width: 1200px) {padding: 0;}
 	&__item {
 		&:first-child {@media (max-width: 1200px) {flex-direction: column;}}
@@ -65,11 +65,7 @@
 	&__avatar {
 		left: 50%;
 		position: relative;
-		transform: translate(-50%);
-		@media (min-width: 992px) {
-			left: 47%;
-			transform: none;
-		}
+		transform: translate(-50%, 0);
 		&:hover {cursor: pointer;}
 	}
 }

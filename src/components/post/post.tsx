@@ -22,15 +22,15 @@ export const Post: React.FC = () => {
 					<img  src={postImg} alt="postImg" width="100%" />
 				</div>
 				<div className="post__action ">
-					<ul className="social">
-						<li className="social__item--column">
+					<ul className="social-colum social-colum__action">
+						<li className="social-colum__item--column">
 							<FontAwesomeIcon icon={faHeart} className="fa" />
-							<div className="social__count">12 K</div>
+							<div className="social-colum__count">12 K</div>
 						</li>
-						<li className="social__item--column">
+						<li className="social-colum__item--column">
 							<i className="far fa-eye fa"></i>
 							<FontAwesomeIcon icon={faEye} className="fa" />
-							<div className="social__count">25 K</div>
+							<div className="social-colum__count">25 K</div>
 						</li>
 					</ul>
 				</div>
