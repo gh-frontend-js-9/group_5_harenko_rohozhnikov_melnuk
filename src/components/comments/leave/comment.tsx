@@ -1,6 +1,6 @@
 import React from 'react'
 import './leave.scss'
-import Avatar from '../../assets/images/avatar.png'
+import Avatar from '../../../assets/images/avatar.png'
 
 export const Comments: React.FC = () => {
     return (

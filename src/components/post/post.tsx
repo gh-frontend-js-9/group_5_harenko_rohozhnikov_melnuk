@@ -1,14 +1,14 @@
 import React from 'react'
 import './post.scss'
 import './socialColum/socialColum.scss'
-import avatar from '../../assets/images/avatar.png'
+import User from './user/user'
+import PostLIst from './postList/postList'
+import SocialColum from './socialColum/socialColum'
 import postImg from '../../assets/images/postImg.png'
 import postImgSmoll from '../../assets/images/postImgSmoll.png'
-import SocialColum from './socialColum/socialColum'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart} from '@fortawesome/free-solid-svg-icons'
 import { faEye} from '@fortawesome/free-solid-svg-icons'
-import PostLIst from './postList/postList'
 
 
 export const Post: React.FC = () => {
@@ -82,13 +82,7 @@ export const Post: React.FC = () => {
 				</div>
 			</div>
 			<div className="post__item">
-				<div className="post__avatar avatar">
-					<img src={avatar} alt="avatar" />
-				</div>
-				<div className="post__user">TOMAS LAURINAVICIUS</div>
-				<div className="post__address">Follow me 
-					<a className="post__address--color" href="">@JohnAMWill.</a>
-				</div>
+				<User />
 			</div>
 		</section>
     )

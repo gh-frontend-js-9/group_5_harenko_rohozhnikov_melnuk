@@ -1,7 +1,6 @@
 import React from 'react'
 import './leave.scss'
-import Comments from './comments'
-import Avatar from '../../assets/images/avatar.png'
+import Comments from './comment'
 
 export const Leave: React.FC = () => {
     return (

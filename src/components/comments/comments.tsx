@@ -1,7 +1,7 @@
 import React from 'react'
 import './comments.scss'
-import Leave from '../leave/leave'
-import Form from '../form/form'
+import Leave from './leave/leave'
+import Form from './form/form'
 
 export const Comments: React.FC = () => {
     return (

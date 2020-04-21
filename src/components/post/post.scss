@@ -66,6 +66,10 @@
 		left: 50%;
 		position: relative;
 		transform: translate(-50%);
+		@media (min-width: 992px) {
+			left: 47%;
+			transform: none;
+		}
 		&:hover {cursor: pointer;}
 	}
 }

@@ -1,7 +1,12 @@
 .about {
+	padding: 0 5%;
 	color: #111210;
 	margin-top: 114px;
 	margin-bottom: 63px;
+	@media (min-width: 1200px) {
+		padding-left: 0;
+		padding-right: 0;
+	}
 	&__title {
 		font-size: 36px;
 		font-weight: 700;

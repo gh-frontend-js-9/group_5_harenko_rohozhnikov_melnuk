@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.scss';
-import Social from '../social/social'
+import Social from './social/social'
 import Logo from '../../assets/images/logo.png'
 
 export const Footer: React.FC = () => {
