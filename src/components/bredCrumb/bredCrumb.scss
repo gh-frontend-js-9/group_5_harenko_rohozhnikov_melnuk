@@ -1,7 +1,10 @@
 .bred-crumb {
 	padding: 0 5%;
 	padding-top: 51px;
-	@media (min-width: 1200px) {padding: 0;}
+	@media (min-width: 1200px) {
+		padding-left: 0;
+		padding-right: 0;
+	}
 	&__link {
 		color: #9b9b9b;
 		font-size: 12px;
