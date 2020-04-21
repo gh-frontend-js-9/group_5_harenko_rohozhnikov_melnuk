@@ -1,15 +1,15 @@
 .header {
+	margin-top: 69px;
 	align-items: center;
-	margin-top: 59px;
-	align-items: center;
-	@media (max-width: 768px) {
-		margin-top: 69px;
-		flex-direction: column;
+	flex-direction: column;
+	@media (min-width: 992px) {
+		margin-top: 59px;
+		flex-direction: row;
 	}
 	@media (max-width: 1200px) { padding: 0 5%;}
 	&__item:first-child {
 		align-items: center;
-		@media (max-width: 768px) {
+		@media (max-width: 992px) {
 			text-align: center;
 			flex-direction: column;
 		}
@@ -23,6 +23,9 @@
 			}
 		@media (min-width: 768.5px) {margin-right: 62px;}
 	}
-	&__nav {width: 100%;}
+	&__nav {
+		width: 100%;
+		line-height: normal;
+	}
 	&__search {@media (min-width: 992px) {display: block !important;}}
 }
