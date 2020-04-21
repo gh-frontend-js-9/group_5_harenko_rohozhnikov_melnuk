@@ -13,11 +13,11 @@ export const Related: React.FC = () => {
 			</div>
 			<div className="related__item flex-sb">
 				<div className="related__box">
-					<div className="related__img">
-                        <img src={imgRelatedContent} alt="imgRelatedContent" /> 
+					<div className="related__box-img">
+                        <img className="related__img" src={imgRelatedContent} alt="imgRelatedContent" /> 
 					</div>
 					<div className="related__author author">BY
-						<span className="author--color"> TOMAS LAURINAVICIUS</span>
+						<span className="author--color"> TOMAS LAURINAVICIUS </span>
 						IN
 						<span className="author--color"> DESIGN PROCESS </span>
 					</div>
@@ -25,8 +25,8 @@ export const Related: React.FC = () => {
 					<div className="related__text">User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.</div>
 				</div>
 				<div className="related__box">
-					<div className="related__img">
-                        <img src={imgRelatedContent} alt="imgRelatedContent" />
+					<div className="related__box-img">
+                        <img className="related__img" src={imgRelatedContent} alt="imgRelatedContent" />
 					</div>
 					<div className="related__author author">BY
 						<span className="author--color"> TOMAS LAURINAVICIUS </span>

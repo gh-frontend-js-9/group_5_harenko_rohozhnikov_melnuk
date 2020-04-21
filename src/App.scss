@@ -18,10 +18,15 @@ li {list-style-type: none;}
 .main {background-color: #f9f9fb;}
 
 .title {
+	transition: .3s;
 	color: #111210;
 	font-size: 28px;
 	font-weight: 600;
 	line-height: 46px;
+	&:hover {
+		cursor: pointer;
+		color: #ff5480;
+	}
 }
 
 .flex-sb {
@@ -40,7 +45,7 @@ li {list-style-type: none;}
 }
 
 .author {
-	line-height: 46px;
+	line-height: 1.4;
 	letter-spacing: -0.1px;
 	text-transform: uppercase;
 	&--color {color: #9b9b9b;}		

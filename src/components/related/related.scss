@@ -7,6 +7,10 @@
 		color: #111210;
 		line-height: 46px;
 		letter-spacing: -0.1px;
+		&:hover {
+		    cursor: pointer;
+			color: #ff5480;
+		}
 	}
 	&__text{
 		color: #9b9b9b;
@@ -15,14 +19,23 @@
 		margin-bottom: 104px;
 		letter-spacing: -0.1px;
 	}
-	&__img {
-		width: 573px;
-		height: 358px;
+	&__box-img {
+		// margin: 0 auto;
+		max-width: 573px;
+		max-height: 358px;
 		border-radius: 8px;
 		margin-bottom: 20px;
+		&:hover {
+			cursor: pointer;
+		}
 	}
+	&__img {width: 100%;}
 	&__box:first-child{margin-right: 13.5px;}
 	&__box:last-child{margin-left: 13.5px;}
-	&__item {margin: 62px 0;}
+	&__item {
+		margin: 62px 5%;
+		text-align: center;
+		@media (max-width: 576px) {display: block;}
+	}
 	&__author{margin-bottom: 21px;}
 }
