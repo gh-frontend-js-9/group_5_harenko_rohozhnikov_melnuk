@@ -1,9 +1,13 @@
 .leave {
+	padding: 0 5%;
 	margin-bottom: 47px;
+	@media (min-width: 992px) {padding: 0;}
 	&__item{
-		margin: 27px 0	;
+		margin: 27px 0;
 		line-height: 32px;
 		letter-spacing: -0.1px;
+		flex-direction: column;
+		@media (min-width: 576px) {flex-direction: row;}
 		&--bold {font-weight: 700;}
 		&--bottom {
 			padding-bottom: 79px;
@@ -12,6 +16,7 @@
 	}
 	&__title{
 		line-height: 32px;
+		margin-bottom: 27px;
 		letter-spacing: -0.17px;
 	}
 	&__button {
@@ -26,5 +31,11 @@
 		letter-spacing: -0.37px;
 		justify-content: center;
 		border: 2px solid #ff5480;
+		&:hover {
+			cursor: pointer;
+			transform: scale(1.02);
+			background-color: #fff;
+			box-shadow: 0 0 8px rgba(0,0,0,.08);
+		}
 	}
 }

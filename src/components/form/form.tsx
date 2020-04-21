@@ -16,9 +16,11 @@ export const Form: React.FC = () => {
 			</div>
 			<div className="form__item">
 				<label className="form__label">
-				    <input className="form__checkbox" type="checkbox" /> I agree to the 
-					<a className="form__link" href=""> Terms and Conditions</a> and 
-					<a className="form__link" href=""> Privacy Policy</a>
+				    <input className="form__checkbox" type="checkbox" />  
+					<span className="form__span"> I agree to the 
+						<a className="form__link" href=""> Terms and Conditions</a> and 
+						<a className="form__link" href=""> Privacy Policy</a>
+					</span>
 				</label>
 			</div>
 			<div className="form__item">
