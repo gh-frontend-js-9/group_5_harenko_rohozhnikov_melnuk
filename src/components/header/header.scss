@@ -1,4 +1,5 @@
 .header {
+	padding: 0 5%;
 	margin-top: 69px;
 	align-items: center;
 	flex-direction: column;
@@ -6,14 +7,17 @@
 		margin-top: 59px;
 		flex-direction: row;
 	}
-	@media (max-width: 1200px) { padding: 0 5%;}
+	@media (min-width: 1200px) {
+		padding-left: 0;
+		padding-right: 0;
+	}
 	&__item:first-child {
+		width: 85%;
 		align-items: center;
 		@media (max-width: 992px) {
 			text-align: center;
 			flex-direction: column;
 		}
-		@media (max-width: 1200px) {width: 75%;}
 	}
 	&__logo {
 		@media (max-width: 992px) {
@@ -27,5 +31,11 @@
 		width: 100%;
 		line-height: normal;
 	}
-	&__search {@media (min-width: 992px) {display: block !important;}}
+	&__search {
+		margin-bottom: 30px;
+		@media (min-width: 992px) {
+			margin-bottom: 0;
+			display: block !important;
+		}
+	}
 }

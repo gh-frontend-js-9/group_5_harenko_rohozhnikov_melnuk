@@ -15,15 +15,13 @@ function App() {
         <Header/>
         {/* <About /> */}
       </div>
-      {/* <main className="main">
+      <main className="main">
         <BredCrumb />
-        <Post />
+        {/* <Post />
         <Related />
-        <Comments />
+        <Comments /> */}
       </main>
-      <div className="container">
-        <Footer />
-      </div> */}
+        {/* <Footer /> */}
     </>
   );
 }
