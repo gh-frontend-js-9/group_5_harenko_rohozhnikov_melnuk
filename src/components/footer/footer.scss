@@ -1,0 +1,15 @@
+.footer {
+	height: 100px;
+	display: flex;
+	margin: 0 auto;
+	padding: 0 10px;
+	align-items: center;
+	flex-direction: column;
+	&__item:first-child {opacity: 0.25;}
+	&__copyright {
+		color: #9b9b9b;
+		font-size: 14px;
+	}
+	@media (min-width: 992px) {flex-direction: row;}
+	@media (min-width: 1200px) {padding: 0;}
+}
