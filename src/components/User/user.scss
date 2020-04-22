@@ -1,0 +1,25 @@
+.post {
+	&__user {
+		font-size: 18px;
+		font-weight: 600;
+		margin-top: 14px;
+		line-height: 30px;
+		text-align: center;
+		letter-spacing: -0.11px;
+		text-transform: uppercase;
+		&:hover {cursor: pointer;}
+	}
+	&__address {
+		line-height: 46px;
+		text-align: center;
+		letter-spacing: -0.1px;
+		&:hover {cursor: pointer;}
+		&--color {color: #27aeff;}
+	}
+	&__avatar {
+		left: 50%;
+		position: relative;
+		transform: translate(-50%, 0);
+		&:hover {cursor: pointer;}
+	}
+}
