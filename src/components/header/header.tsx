@@ -1,14 +1,8 @@
 import React from 'react';
 import './header.scss'
-<<<<<<< HEAD:src/components/postPage/header/header.tsx
-import Logo from '../../assets/images/logo.png';
-import Navigation from '../navigation/navigation'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-=======
 import './burgerMenu.scss'
 import Logo from  '../../assets/images/logo.png'
 import Navigation from './navigation/navigation'
->>>>>>> post/header:src/components/header/header.tsx
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
