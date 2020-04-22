@@ -3,7 +3,7 @@ import './App.scss'
 import Header from './components/Header/header'
 import Footer from './components/Footer/footer'
 import Bredcrumb from './components/Bredcrumb/bredCrumb'
-import User from './components/User/user'
+import Post from './components/Posts/post'
 
 function App() {
   return (
@@ -13,9 +13,7 @@ function App() {
         <Bredcrumb />
       </div>
       <main className="main container">
-        <section className="content">
-          <User />
-        </section>
+          <Post />
         <section className="saidebar"></section>
       </main>
       <Footer />

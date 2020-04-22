@@ -1,17 +1,20 @@
 import React from 'react'
+import './user.scss'
 import avatar from '../../assets/images/avatar.png'
+import Social from '../Footer/social/social'
 
 export const User: React.FC = () => {
     return (
-		<>
-			<div className="post__avatar avatar">
+		<section className="user">
+			<div className="user__avatar avatar">
 				<img src={avatar} alt="avatar" />
 			</div>
-			<div className="post__user">TOMAS LAURINAVICIUS</div>
-			<div className="post__address">Follow me 
-				<a className="post__address--color" href="">@JohnAMWill.</a>
+			<div className="user__name">TOMAS LAURINAVICIUS</div>
+			<div className="user__text">
+				Hi, my name is Daniel, I'm the CTO <br />here at Kinsta.
 			</div>
-		</>
+			<Social />
+		</section>
     )
 }
 

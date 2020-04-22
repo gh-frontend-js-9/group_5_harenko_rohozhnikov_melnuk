@@ -47,7 +47,14 @@ li {list-style-type: none;}
 	&--color {color: #9b9b9b;}		
 }
 
-.fa {font-size: 25px;}
+.fa {
+	font-size: 25px;
+	&:hover {
+		cursor: pointer;
+		color: #ff5480;
+		transform: scale(1.02);
+	}
+}
 
 .avatar {
 	width: 79px;
