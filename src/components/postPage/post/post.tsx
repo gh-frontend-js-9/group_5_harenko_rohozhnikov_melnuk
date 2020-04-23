@@ -1,24 +1,20 @@
 import React from 'react'
 import './post.scss'
 import avatar from '../../../assets/images/avatar.png'
-import postImg from '../../../assets/images/postImg.png'
-import postImgSmoll from '../../../assets/images/postImgSmoll.png'
 import SocialColum from '../socialColum/socialColum'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart} from '@fortawesome/free-solid-svg-icons'
 import { faEye} from '@fortawesome/free-solid-svg-icons'
 import PostLIst from '../postList/postList'
 
-export const Post: React.FC = () => {
+const Post: React.FC = () => {
     return (
         <section className="post container">
 			<div className="post__item flex-sa">
 				<div className="post__social">
 					<SocialColum />
 				</div>
-				<div className="post__img">
-					<img src={postImg} alt="postImg" />
-				</div>
+				<div className="post__img"></div>
 				<div className="post__action ">
 					<ul className="social social--colum">
 						<li className="social__item--column">
@@ -57,21 +53,15 @@ export const Post: React.FC = () => {
 				</div>
 			</div>
 			<div className="post__item flex-c">
-				<div className="post__img">
-					<img src={postImg} alt="postImg" />
-				</div>
+				<div className="post__img"></div>
 			</div>
 			<div className="post__item">
 				<div className="post__text">Here are some of the amazing add-ons included:</div>
 				<PostLIst />
 			</div>
 			<div className="post__item flex-sa">
-				<div className="post__img post__img--smoll">
-					<img src={postImgSmoll} alt="postImgSmoll" />
-				</div>
-				<div className="post__img post__img--smoll">
-					<img src={postImgSmoll} alt="postImgSmoll" />
-				</div>
+				<div className="post__img post__img--smoll"></div>
+				<div className="post__img post__img--smoll"></div>
 			</div>
 			<div className="post__item">
 				<div className="post__text post__text--style">

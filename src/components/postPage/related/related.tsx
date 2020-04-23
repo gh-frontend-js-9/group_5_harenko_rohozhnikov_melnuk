@@ -1,8 +1,7 @@
 import React from 'react'
 import './related.scss'
-import imgRelatedContent from '../../../assets/images/imgRelatedContent.png'
 
-export const Related: React.FC = () => {
+const Related: React.FC = () => {
     return (
         <section className="related container">
 			<div className="related__item flex-sb">
@@ -13,9 +12,7 @@ export const Related: React.FC = () => {
 			</div>
 			<div className="related__item flex-sb">
 				<div className="related__box">
-					<div className="related__img">
-                        <img src={imgRelatedContent} alt="imgRelatedContent" /> 
-					</div>
+					<div className="related__img"></div>
 					<div className="related__author author">BY
 						<span className="author--color"> TOMAS LAURINAVICIUS</span>
 						IN
@@ -25,9 +22,7 @@ export const Related: React.FC = () => {
 					<div className="related__text">User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.</div>
 				</div>
 				<div className="related__box">
-					<div className="related__img">
-                        <img src={imgRelatedContent} alt="imgRelatedContent" />
-					</div>
+					<div className="related__img"></div>
 					<div className="related__author author">BY
 						<span className="author--color"> TOMAS LAURINAVICIUS </span>
 						IN

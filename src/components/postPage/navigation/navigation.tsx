@@ -10,10 +10,10 @@ export class Navigation extends React.Component<any> {
         return (
             <ul className="menu flex-sa" style={this.props.display} >
                 <li className="menu__item">
-                    <Link to="/" className="menu__link" href="/popular">Blog</Link>
+                    <Link to="/" className="menu__link">Blog</Link>
                 </li>
                 <li className="menu__item">
-                    <a className="menu__link" href="/new">New</a>
+                    <a className="menu__link" href="/">Author</a>
                 </li>
             </ul>
         )

@@ -1,23 +1,35 @@
 .post {
 	margin-bottom: 156px;
-	&__menu {flex-direction: column;}
+	&__menu {
+		flex-direction: column;
+	}
 	&__img {
 		width: 972px;
 		height: 574px;
 		margin: 15px 0;
 		border-radius: 8px;
+		background-size: cover;
+		background-position: center;
+		background-image: url("https://ghblogs.herokuapp.com/images/mountains.jpg");
 		&--smoll {
 			width: 475px;
 			height: 574px;
-		}	
+			background-size: cover;
+			background-position: center;
+			background-image: url("https://ghblogs.herokuapp.com/images/mountains.jpg");
+		}
 	}
 	&__text {
 		margin: 45px 0;
 		color: #4a4a4a;
 		font-size: 20px;
 		line-height: 40px;
-		&--color {color: #27aeff;}
-		&--bold {font-weight: bold;}
+		&--color {
+			color: #27aeff;
+		}
+		&--bold {
+			font-weight: bold;
+		}
 		&--style {
 			color: #9283e0;
 			font-size: 24px;
@@ -44,7 +56,9 @@
 		line-height: 46px;
 		text-align: center;
 		letter-spacing: -0.1px;
-		&--color {color: #27aeff;}
+		&--color {
+			color: #27aeff;
+		}
 	}
 	&__avatar {
 		left: 47%;
