@@ -1,0 +1,42 @@
+.user {
+	max-width: 774px;
+	max-height: 315px;
+	padding-top: 43px;
+	border-radius: 8px;
+	padding-bottom: 43px;
+	text-align: center;
+	background-color: #ffffff;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+	&__name {
+		font-size: 18px;
+		font-weight: 600;
+		margin-top: 14px;
+		line-height: 30px;
+		text-align: center;
+		letter-spacing: -0.11px;
+		text-transform: uppercase;
+		&:hover {cursor: pointer;}
+	}
+	&__address {
+		line-height: 46px;
+		text-align: center;
+		letter-spacing: -0.1px;
+		&:hover {cursor: pointer;}
+		&--color {color: #27aeff;}
+	}
+	&__avatar {
+		left: 50%;
+		position: relative;
+		transform: translate(-50%, 0);
+		&:hover {cursor: pointer;}
+	}
+	&__text {
+		color: #111210;
+		line-height: 24px;
+		letter-spacing: -0.1px;
+	}
+	.social {
+		margin-top: 32px;
+		justify-content: center;
+	}
+}

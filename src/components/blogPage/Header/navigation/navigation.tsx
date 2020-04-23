@@ -13,7 +13,7 @@ export class Navigation extends React.Component<any> {
                     <Link to="/post" className="menu__link">Post</Link>
                 </li>
                 <li className="menu__item">
-                    <a className="menu__link" href="/">Author</a>
+                    <Link to="/auther" className="menu__link">Author</Link>
                 </li>
             </ul>
         )
