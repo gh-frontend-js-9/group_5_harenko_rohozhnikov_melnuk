@@ -1,3 +1,3 @@
 # blog/slider-carousel branch
 
-Status: in progress
+Status: complete
