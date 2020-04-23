@@ -126,7 +126,7 @@ $font: "Open Sans", sans-serif;
   .main-block {
     padding-left: unset;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
   }
   .small-articles-block {
     margin-top: 20px;
@@ -138,6 +138,6 @@ $font: "Open Sans", sans-serif;
 
 @media all and (max-width: 500px) {
   .main-block_subtitle {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
