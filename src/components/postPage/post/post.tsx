@@ -1,6 +1,9 @@
 import React from 'react'
 import './post.scss'
+import '../socialColum/socialColum.scss'
 import avatar from '../../../assets/images/avatar.png'
+import postImg from '../../../assets/images/postImg.png'
+import postImgSmoll from '../../../assets/images/postImgSmoll.png'
 import SocialColum from '../socialColum/socialColum'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart} from '@fortawesome/free-solid-svg-icons'
@@ -14,7 +17,9 @@ const Post: React.FC = () => {
 				<div className="post__social">
 					<SocialColum />
 				</div>
-				<div className="post__img"></div>
+				<div className="post__img">
+					<img  src={postImg} alt="postImg" width="100%" />
+				</div>
 				<div className="post__action ">
 					<ul className="social social--colum">
 						<li className="social__item--column">
@@ -60,8 +65,12 @@ const Post: React.FC = () => {
 				<PostLIst />
 			</div>
 			<div className="post__item flex-sa">
-				<div className="post__img post__img--smoll"></div>
-				<div className="post__img post__img--smoll"></div>
+				<div className="post__img post__img--smoll">
+					<img src={postImgSmoll} alt="postImgSmoll" width="100%" />
+				</div>
+				<div className="post__img post__img--smoll">
+					<img src={postImgSmoll} alt="postImgSmoll" width="100%" />
+				</div>
 			</div>
 			<div className="post__item">
 				<div className="post__text post__text--style">

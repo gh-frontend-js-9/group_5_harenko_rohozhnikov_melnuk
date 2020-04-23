@@ -1,35 +1,37 @@
 .post {
+	padding: 0 5%;
 	margin-bottom: 156px;
-	&__menu {
-		flex-direction: column;
+	@media (max-width: 576px) {text-align: center;}
+	@media (min-width: 1200px) {padding: 0;}
+	&__item {
+		&:first-child {@media (max-width: 1200px) {flex-direction: column;}}
+		&:nth-child(6) {@media (max-width: 1200px) {flex-direction: column;}}
 	}
+	&__menu {@media (min-width: 1200px) {flex-direction: column;}}
 	&__img {
-		width: 972px;
-		height: 574px;
+		max-width: 972px;
+		max-height: 574px;
 		margin: 15px 0;
 		border-radius: 8px;
-		background-size: cover;
-		background-position: center;
-		background-image: url("https://ghblogs.herokuapp.com/images/mountains.jpg");
 		&--smoll {
-			width: 475px;
-			height: 574px;
-			background-size: cover;
-			background-position: center;
-			background-image: url("https://ghblogs.herokuapp.com/images/mountains.jpg");
+			max-width: 475px;
+			max-height: 574px;
+			margin-left: auto;
+			margin-right: auto;
 		}
+		&:hover {
+			transform: 3s;
+			cursor: pointer;
+			box-shadow: 0 0 8px rgba(0,0,0,.08);
+		}	
 	}
 	&__text {
 		margin: 45px 0;
 		color: #4a4a4a;
 		font-size: 20px;
 		line-height: 40px;
-		&--color {
-			color: #27aeff;
-		}
-		&--bold {
-			font-weight: bold;
-		}
+		&--color {color: #27aeff;}
+		&--bold {font-weight: bold;}
 		&--style {
 			color: #9283e0;
 			font-size: 24px;
@@ -51,17 +53,19 @@
 		text-align: center;
 		letter-spacing: -0.11px;
 		text-transform: uppercase;
+		&:hover {cursor: pointer;}
 	}
 	&__address {
 		line-height: 46px;
 		text-align: center;
 		letter-spacing: -0.1px;
-		&--color {
-			color: #27aeff;
-		}
+		&:hover {cursor: pointer;}
+		&--color {color: #27aeff;}
 	}
 	&__avatar {
-		left: 47%;
+		left: 50%;
 		position: relative;
+		transform: translate(-50%);
+		&:hover {cursor: pointer;}
 	}
 }
