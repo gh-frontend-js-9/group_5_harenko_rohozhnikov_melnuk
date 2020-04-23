@@ -1,0 +1,48 @@
+.saidebar {
+    display: none;
+    max-width: 378px;
+    @media (min-width: 1200px) { display: block;}
+
+    .search {
+        width: 100%;
+        padding: 5%;
+        height: 83px;
+        display: flex;
+        max-width: 378px;
+        border-radius: 8px;
+        align-items: center;
+        background-color: #ffffff;
+        justify-content: space-between;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+    }
+    .subscribe {
+        width: 100%;
+        padding: 0 5%;
+        height: 188px;
+        display: flex;
+        margin-top: 20px;
+        max-width: 378px;
+        border-radius: 8px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fff;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+        .form__input {
+            width: 282px;
+            height: 42px;
+        }
+        .form__submit {
+            padding: 0;
+            width: 103px;
+            height: 42px;
+            font-size: 16px;
+            position: absolute;
+            margin: 0;
+            @media (min-width: 1200px) {
+                right: 16%;
+                margin-top: 28px;
+            }
+        }
+    }
+}

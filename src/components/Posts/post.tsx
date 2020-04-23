@@ -1,12 +1,13 @@
 import React from 'react'
 import './post.scss'
 import User from '../User/user'
+import Subscribe from '../Subscribe/subscribe'
 import postImg from '../../assets/images/postImg.png'
 
 
 export const Posts: React.FC = () => {
     return (
-        <section className="posts post container">
+        <section className="post container posts">
 			<User />
 			<div className="post__item">
 				<div className="post__img">
@@ -50,6 +51,7 @@ export const Posts: React.FC = () => {
 					How To Use Yoast SEO On WordPress: Complete Tutorial
 				</div>
 			</div>
+			<Subscribe />
 		</section>
     )
 }
