@@ -124,7 +124,9 @@ $font: "Open Sans", sans-serif;
     justify-content: center;
   }
   .main-block {
-    height: 445px;
+    padding-left: unset;
+    text-align: center;
+    padding-bottom: 30px;
   }
   .small-articles-block {
     margin-top: 20px;
@@ -136,6 +138,6 @@ $font: "Open Sans", sans-serif;
 
 @media all and (max-width: 500px) {
   .main-block_subtitle {
-    line-height: 35px;
+    font-size: 14px;
   }
 }

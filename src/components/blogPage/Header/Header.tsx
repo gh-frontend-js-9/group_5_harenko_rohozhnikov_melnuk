@@ -1,31 +1,52 @@
-import React from 'react'
-import Logo from '../../../assets/images/logo.png'
+import React from 'react';
 import './header.scss'
+import './burgerMenu.scss'
+import Logo from  '../../../assets/images/logo.png'
+import { Navigation } from './navigation/navigation'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-export const Header: React.FC = () => {
-    return (
-        <header className="header">
+export class Header extends React.Component<any, any> {
+    constructor(props: any) {
+        super(props)
+        this.state = {
+            isDisplay: true
+        }
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick(e: any) {
+        e.target.classList.toggle('burger-menu__lines--active')
+        this.setState((state: any) => ({
+            isDisplay: !state.isDisplay
+        }));
+    }
+
+    render() {
+        const style = this.state.isDisplay ? { display: 'none' } : { display: 'block' };
+        return (
             <div className="container">
-                <div className="header__items">
-                    <a href="/"><img src={Logo} alt="Logo" /></a>
+            <header className="header flex-sb">
+                <div className="header__item flex-sb">
+                    <a className="header__link" href="/">
+                        <img className="header__logo logo" src={Logo} alt="Logo" />
+                    </a>
+                    <nav className="header__nav nav">
+                        <Navigation display={style} /> 
+                    </nav>
                 </div>
-                <nav className="header__items">
-                    <ul className="header__menu menu">
-                        <li className="menu__item"><a className="menu__link" href="/popular">Popular</a></li>
-                        <li className="menu__item"><a className="menu__link" href="/new">New</a></li>
-                        <li className="menu__item"><a className="menu__link" href="/readinglist">Reading list</a></li>
-                        <li className="menu__item"><a className="menu__link" href="/topics">Topics</a></li>
-                        <li className="menu__item"><a className="menu__link" href="/subscribe">Subscribe</a></li>
-                    </ul>
-                </nav>
-                <div className="header__items">
-                    <form className="header__form"> 
-                        <input className="header__search" type="text" name="search" />
-                    </form>
+                <div className="header__item">
+                    <FontAwesomeIcon style={style} icon={faSearch} className="header__search" />
+                    <div className="burger-menu" onClick={e => this.handleClick(e)}>
+                        <a href="#" className="burger-menu__button" >
+                            <span className="burger-menu__lines"></span>
+                        </a>
+                    </div>
                 </div>
+            </header>
             </div>
-	    </header>
-    )
+        )
+    }
 }
 
 export default Header;
