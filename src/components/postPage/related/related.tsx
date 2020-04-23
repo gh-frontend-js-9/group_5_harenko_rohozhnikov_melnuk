@@ -1,6 +1,6 @@
 import React from 'react'
 import './related.scss'
-import imgRelatedContent from '../../assets/images/imgRelatedContent.png'
+import imgRelatedContent from '../../../assets/images/imgRelatedContent.png'
 
 export const Related: React.FC = () => {
     return (

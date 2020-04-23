@@ -3,7 +3,7 @@ import './form.scss'
 
 export const Form: React.FC = () => {
     return (
-        <form className="form__box" action="">
+        <form id="reply" className="form__box">
 			<div className="form__title title">Leave a Reply</div>
 			<div className="form__item">
 				<input className="form__input form__input--size" type="text" placeholder="Comment" />

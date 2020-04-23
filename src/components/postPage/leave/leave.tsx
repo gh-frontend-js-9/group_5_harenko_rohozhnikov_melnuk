@@ -1,14 +1,13 @@
 import React from 'react'
 import './leave.scss'
 import Comments from './comments'
-import Avatar from '../../assets/images/avatar.png'
 
-export const Leave: React.FC = () => {
+const Leave: React.FC = () => {
     return (
 		<section className="leave">
 			<div className="leave__item flex-sb">
 				<div className="leave__title title">Comments</div>
-				<div className="leave__button">Leave a Comment</div>
+				<a href="#reply" className="leave__button">Leave a Comment</a>
 			</div>
 			<div className="leave__item">
 				<span className="leave__item--bold">Comment policy:</span> 

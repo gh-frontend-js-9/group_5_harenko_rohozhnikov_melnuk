@@ -1,5 +1,6 @@
 import React from 'react'
-import { HashRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import BlogPage from './blogPage/blogPage'
 import PostPage from './postPage/postPage'
 
 export default function RouteMap() {
@@ -7,6 +8,7 @@ export default function RouteMap() {
         <Router>
             <Switch>
                 <Route path="/post" component={PostPage}/>
+                <Route path="/" component={BlogPage}/>
             </Switch>
         </Router>
     )

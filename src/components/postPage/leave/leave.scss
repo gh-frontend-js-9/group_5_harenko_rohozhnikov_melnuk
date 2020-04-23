@@ -26,5 +26,9 @@
 		letter-spacing: -0.37px;
 		justify-content: center;
 		border: 2px solid #ff5480;
+		&:hover {
+			background-color: #ff5480;
+			color: #fff;
+		}
 	}
 }

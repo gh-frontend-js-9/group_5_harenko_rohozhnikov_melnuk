@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.scss'
 import './burgerMenu.scss'
-import Logo from  '../../assets/images/logo.png'
+import Logo from  '../../../assets/images/logo.png'
 import { Navigation } from '../navigation/navigation'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

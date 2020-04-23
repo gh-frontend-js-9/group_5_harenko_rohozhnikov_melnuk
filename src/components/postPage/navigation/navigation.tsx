@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './navigation.scss'
 
 export class Navigation extends React.Component<any> {
@@ -9,25 +10,10 @@ export class Navigation extends React.Component<any> {
         return (
             <ul className="menu flex-sa" style={this.props.display} >
                 <li className="menu__item">
-                    <a className="menu__link" href="/popular">Popular</a>
+                    <Link to="/" className="menu__link" href="/popular">Blog</Link>
                 </li>
                 <li className="menu__item">
                     <a className="menu__link" href="/new">New</a>
-                </li>
-                <li className="menu__item">
-                    <a className="menu__link" href="/post">Post</a>
-                </li>
-                <li className="menu__item">
-                    <a className="menu__link" href="/readinglist">Reading list</a>
-                </li>
-                <li className="menu__item">
-                    <a className="menu__link" href="/topics">Topics</a>
-                </li>
-                <li className="menu__item">
-                    <a className="menu__link" href="/subscribe">Subscribe</a>
-                </li>
-                <li className="menu__item">
-                    <a className="menu__link" href="/author">Author</a>
                 </li>
             </ul>
         )
